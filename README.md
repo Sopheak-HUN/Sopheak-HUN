@@ -57,11 +57,15 @@
 ## ⚙️ Core Architecture Pipeline
 
 ```mermaid
-graph LR
+graph TD
     A[Nuxt 3 / Vue 3 Client] -->|REST API| B(Laravel Core Engine)
-    B -->|Containerized| C(Docker / Compose)
-    C -->|Orchestrated| D(Kubernetes Clusters)
-    E[GitLab CI / Jenkins] -->|CI/CD GitOps| D
+    subgraph Containerization
+    B -->|Dockerize| C(Docker / Compose)
+    end
+    subgraph Orchestration
+    C -->|Deploy| D(Kubernetes Clusters)
+    E[GitLab CI / Jenkins] -->|GitOps| D
+    end
     style A fill:#00dc82,stroke:#333,stroke-width:2px,color:#000
     style B fill:#ff2d20,stroke:#333,stroke-width:2px,color:#fff
     style C fill:#2496ed,stroke:#333,stroke-width:2px,color:#fff
