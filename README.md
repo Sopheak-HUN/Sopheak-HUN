@@ -2,6 +2,9 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=38&duration=3000&pause=1000&color=00FFC4&center=true&vCenter=true&width=500&height=80&lines=HUN+SOPHEAK;WEB+DEVELOPER;DEVOPS+ENGINEER" alt="Typing SVG" />
 </p>
 
+<a href="https://daily.dev/sopheakhun"><img src="https://api.daily.dev/devcards/v2/v3wcMVWl1OPWmXwSA3PCj.png?type=default&r=4dt" width="356" alt="Sopheak-HUN's Dev Card"/></a>
+
+
 <p align="center">
   <code style="color: #00ffc4; font-size: 1.2rem;"><b>🚀 Web Developer & DevOps Engineer | Phnom Penh, Cambodia 🇰🇭</b></code>
 </p>
